@@ -21,7 +21,7 @@ float voltage, ecValue, temperature = 25;
 
 String apiKey = "";     //  Enter your Write API key from ThingSpeak
  
-const char *ssid =  "";     // replace with your wifi ssid and wpa2 key
+const char *ssid =  "";    // replace with your wifi ssid and wpa2 key
 const char *pass =  "";
 const char* server = "api.thingspeak.com";
  
