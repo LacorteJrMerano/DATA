@@ -22,10 +22,10 @@ Adafruit_SSD1306 ads;
  
 float voltage, ecValue, temperature = 25;
  
-String apiKey = "J4YPGC6AX1X885E7";     //  Enter your Write API key from ThingSpeak
+String apiKey = "";     //  Enter your Write API key from ThingSpeak
  
-const char *ssid =  "HUAWEI-ged8";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "hdg91dfo";
+const char *ssid =  "";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "";
 const char* server = "api.thingspeak.com";
  
 WiFiClient client;
